@@ -1,7 +1,7 @@
+import Validator from '../src';
 
 const cfg = [
   {
-
     id: 'showId',
     required: {
       value: true,
@@ -49,3 +49,7 @@ const cfg = [
     }
   },
 ];
+
+console.log(Validator);
+
+
