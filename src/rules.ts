@@ -1,6 +1,6 @@
 import { isUndefined, wrapper, isType } from './utils';
 
-const rulesValidate = {
+export const rulesValidate = {
   required: (value, schema) => {
     if (!schema.value) return true;
     return !isUndefined(value) && value !== '';
