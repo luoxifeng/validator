@@ -52,4 +52,7 @@ const cfg = [
 
 console.log(Validator);
 
+var f = new Validator(cfg);
 
+
+f.validate(['ll']);

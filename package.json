@@ -9,5 +9,6 @@
   "files": [
     "src",
     "src/index.d.ts"
-  ]
+  ],
+  "main": "src/index.ts"
 }
